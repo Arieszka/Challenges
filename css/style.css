@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+a.brand-logo {
+    font-variant: small-caps;
+}
+
+.slider h3,
+.slider h5 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.row img {
+    margin-bottom: 20px;
+}
+
+section {
+    height: 100vh;
+    padding-top: 20px;
+}
